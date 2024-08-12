@@ -1,0 +1,21 @@
+{
+  "responses": [
+  {
+    "route": "/hello",
+    "method": "POST",
+    "status_code": 201,
+    "body": {
+      "status": "ok"
+    }
+  },
+  {
+    "route": "/user",
+    "method": "GET",
+    "status_code": 200,
+    "body": {
+      "name": "John Doe",
+      "email": "john.doe@email.com"
+    }
+  }
+  ]
+}
